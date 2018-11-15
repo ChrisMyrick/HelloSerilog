@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("HelloSerilog")]
+[assembly: AssemblyTitle("SerilogToAzure")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("HelloSerilog")]
+[assembly: AssemblyProduct("SerilogToAzure")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7c656934-cec6-4b47-a6f9-fdc7726e90ba")]
+[assembly: Guid("5cd52ced-7794-416e-955a-f0d4130ad4f1")]
 
 // Version information for an assembly consists of the following four values:
 //
