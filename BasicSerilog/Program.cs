@@ -22,13 +22,11 @@ namespace BasicSerilog
         private static void LogToConsole()
         {
             // A LoggerConfiguration is used to create and assign the default logger.
-            var log = new LoggerConfiguration()
-                .WriteTo.Console()
-                .CreateLogger();
-
             // The simplest way to set up Serilog is using the static Log class.
             // Apply the configuration to the static logger
-            Log.Logger = log;
+            Log.Logger = new LoggerConfiguration()
+                .WriteTo.Console()
+                .CreateLogger();
 
             Log.Information("The static log object has been configured.");
             Log.Warning("This is a warning message.");

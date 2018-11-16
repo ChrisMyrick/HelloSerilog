@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSerilog", "BasicSerilog\BasicSerilog.csproj", "{DC4FCDBD-592F-41CB-B8DE-6F9B52657735}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalSerilog", "BasicSerilog\MinimalSerilog.csproj", "{DC4FCDBD-592F-41CB-B8DE-6F9B52657735}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogToAzure", "SerilogToAzure\SerilogToAzure.csproj", "{5CD52CED-7794-416E-955A-F0D4130AD4F1}"
 EndProject
